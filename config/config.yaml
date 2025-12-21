@@ -1,0 +1,47 @@
+# TinyGuardian Configuration
+
+# LLM Settings
+llm:
+  provider: "ollama"  # ollama, lm_studio, llama_cpp
+  model: "phi3:mini"
+  base_url: "http://localhost:11434"
+  temperature: 0.3
+  max_tokens: 500
+  timeout: 30
+
+# MQTT Settings
+mqtt:
+  broker: "localhost"
+  port: 1883
+  username: null
+  password: null
+  topics:
+    - "iot/devices/+/logs"
+    - "iot/devices/+/events"
+  qos: 1
+  keepalive: 60
+
+# Threat Detection
+threat_detection:
+  severity_threshold: 0.7
+  enable_auto_blocking: false
+  alert_cooldown_seconds: 300
+
+# Database
+database:
+  url: "sqlite:///./tinyguardian.db"
+  echo: false
+
+# Web Server
+server:
+  host: "0.0.0.0"
+  port: 8080
+  log_level: "INFO"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/tinyguardian.log"
+  max_size_mb: 10
+  backup_count: 5
+
