@@ -1,5 +1,9 @@
 # 🤖 TinyGuardian: On-Device LLM + IoT Security Agent
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/tinyguardian?style=social)](https://github.com/yksanjo/tinyguardian/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/tinyguardian.svg)](https://github.com/yksanjo/tinyguardian/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/yksanjo/tinyguardian.svg)](https://github.com/yksanjo/tinyguardian/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/tinyguardian.svg)](https://github.com/yksanjo/tinyguardian/commits/main)
+
+
 > *Privacy-preserving AI security monitoring for edge devices.*
 
 ![TinyGuardian Dashboard](docs/screenshots/dashboard.png)
