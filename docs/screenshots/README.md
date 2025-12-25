@@ -31,3 +31,6 @@ This directory contains screenshots of the TinyGuardian user interface.
 - `alert-details.png` - Alert detail modal
 - `settings.png` - Settings/configuration page
 
+
+
+

@@ -214,3 +214,6 @@ class TinyGuardian:
             "uptime_seconds": (datetime.now() - self.events[0].timestamp).total_seconds() if self.events else 0
         }
 
+
+
+
